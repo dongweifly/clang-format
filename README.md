@@ -14,7 +14,7 @@ Clang format file
  yum install centos-release-scl-rh
  yum install llvm-toolset-7-git-clang-format  (deps toolsset-7, install file is big)
  
- ## find your clang-format create an link, or Add to path; This is my config
+ ## find your clang-format bin path, create an link or add to path env. This is my config
  
  ln -s /opt/rh/llvm-toolset-7/root/usr/bin/clang-format /usr/local/bin
  
